@@ -9,7 +9,8 @@
 #include <stdio.h>
 #include "index_mergesort_handler.h"
 #include "mergesort_handler.h"
+#include "camino_matriz_handler.h"
 
 int main(int argc, const char * argv[]) {
-    return index_mergesort_handler(argc,argv);
+    return camino_matriz_handler(argc, argv);
 }

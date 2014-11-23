@@ -12,6 +12,8 @@
 		AC14CD1E19FAC28B009200F7 /* index_mergesort.c in Sources */ = {isa = PBXBuildFile; fileRef = AC14CD1C19FAC28B009200F7 /* index_mergesort.c */; };
 		AC4B721C19FAC43B00B96B4C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4B721B19FAC43B00B96B4C /* main.c */; };
 		AC4B721F19FAC4FF00B96B4C /* index_mergesort_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4B721D19FAC4FF00B96B4C /* index_mergesort_handler.c */; };
+		ACFF876019FD064E00B41F2C /* camino_matriz.c in Sources */ = {isa = PBXBuildFile; fileRef = ACFF875E19FD064E00B41F2C /* camino_matriz.c */; };
+		ACFF876319FD066A00B41F2C /* camino_matriz_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = ACFF876119FD066A00B41F2C /* camino_matriz_handler.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		AC4B721D19FAC4FF00B96B4C /* index_mergesort_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = index_mergesort_handler.c; path = "mergesort por indices/index_mergesort_handler.c"; sourceTree = "<group>"; };
 		AC4B721E19FAC4FF00B96B4C /* index_mergesort_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index_mergesort_handler.h; path = "mergesort por indices/index_mergesort_handler.h"; sourceTree = "<group>"; };
 		AC4B722019FAC56900B96B4C /* mergesort_handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergesort_handler.h; sourceTree = "<group>"; };
+		ACFF875E19FD064E00B41F2C /* camino_matriz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = camino_matriz.c; path = "camino de la matriz/camino_matriz.c"; sourceTree = "<group>"; };
+		ACFF875F19FD064E00B41F2C /* camino_matriz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camino_matriz.h; path = "camino de la matriz/camino_matriz.h"; sourceTree = "<group>"; };
+		ACFF876119FD066A00B41F2C /* camino_matriz_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = camino_matriz_handler.c; path = "camino de la matriz/camino_matriz_handler.c"; sourceTree = "<group>"; };
+		ACFF876219FD066A00B41F2C /* camino_matriz_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camino_matriz_handler.h; path = "camino de la matriz/camino_matriz_handler.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 				AC4B721B19FAC43B00B96B4C /* main.c */,
 				AC14CD1B19FAC25B009200F7 /* mergesort por indices */,
 				AC14CD1019FAA3B4009200F7 /* mergesort */,
+				ACFF875D19FD061A00B41F2C /* camino de la matriz */,
 				AC14CD0F19FAA3B4009200F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +95,17 @@
 				AC4B721E19FAC4FF00B96B4C /* index_mergesort_handler.h */,
 			);
 			name = "mergesort por indices";
+			sourceTree = "<group>";
+		};
+		ACFF875D19FD061A00B41F2C /* camino de la matriz */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF875E19FD064E00B41F2C /* camino_matriz.c */,
+				ACFF875F19FD064E00B41F2C /* camino_matriz.h */,
+				ACFF876119FD066A00B41F2C /* camino_matriz_handler.c */,
+				ACFF876219FD066A00B41F2C /* camino_matriz_handler.h */,
+			);
+			name = "camino de la matriz";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +166,9 @@
 			files = (
 				AC4B721F19FAC4FF00B96B4C /* index_mergesort_handler.c in Sources */,
 				AC4B721C19FAC43B00B96B4C /* main.c in Sources */,
+				ACFF876319FD066A00B41F2C /* camino_matriz_handler.c in Sources */,
 				AC14CD1A19FAA423009200F7 /* mergesort.c in Sources */,
+				ACFF876019FD064E00B41F2C /* camino_matriz.c in Sources */,
 				AC14CD1219FAA3B4009200F7 /* mergesort_handler.c in Sources */,
 				AC14CD1E19FAC28B009200F7 /* index_mergesort.c in Sources */,
 			);
